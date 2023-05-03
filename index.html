@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Portfolio | andrew</title>
+    <!---link untuk bootstrap--->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      type="text/css"
+      crossorigin="anonymous"
+    />
+    <!---link untuk menyambungkan icon web --->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <!---navigation barnya--->
+    <nav>
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Portfolio Andrew</a>
+                <!---toggle burger--->
+                <button class="navbar-toggler" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!---navigation--->
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link " href="">About</a></li>
+                        <li class="nav-item"><a class="nav-link " href="">Project</a></li>
+                        <li class="nav-item"><a class="nav-link " href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!---akhir navbar--->
+
+    <!---awal jumbotron--->
+    <section class="jumbotron text-center bg-primary text-white">
+        <img class="rounded-circle img-thumbnail" width="200px" src="./images/jett.jpg" alt="jett.jpg">
+        <h1 class="display-4">Andrew</h1>
+        <p class="lead">Programmer | Gamer</p>
+        <!---dibawah sini untuk gelombang/ waves--->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,192L48,202.7C96,213,192,235,288,250.7C384,267,480,277,576,272C672,267,768,245,864,245.3C960,245,1056,267,1152,250.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+        <!---akhir jumbotron--->
+
+        <!---about--->
+        <section id="about">
+          <div>
+            <div class="container text-dark">
+              <div class="row text-center mb-3">
+                <h2>About me</h2>
+              </div>
+            </div>
+            <!---text about me--->
+            <div class="row justify-content-center fs-5 text-center">
+              <div class="col-md-4">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sit delectus mollitia amet temporibus reprehenderit, accusantium perferendis, deleniti animi nam, odit beatae perspiciatis deserunt tenetur ratione eveniet rem incidunt esse!</p>
+              </div>
+              <!---social media acc links-->
+              <div class="col-md-4">
+                <p class="fw-bold">My social media accounts: </p>
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="text-danger bi-instagram"></i><a class="text-decoration-none fw-bold text-danger" href="https://www.instagram.com/" target="blank"> @yaboiandrew</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!---akhir about--->
+
+    <!---dibawah sini gelombang/waves--->
+    <svg style="background-color:white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#00d4ff"
+        fill-opacity="1"
+        d="M0,192L48,202.7C96,213,192,235,288,250.7C384,267,480,277,576,272C672,267,768,245,864,245.3C960,245,1056,267,1152,250.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <!---awal projects section--->
+    <section id="projects" class="bg-greenlight text-white">
+      <div class="container">
+        <div class="row text-center">
+          <h2>My Projects</h2>
+        </div>
+        <div class="row justify-content-center">
+          <!---project 1--->
+          <div class="col-md-4 mb-4">
+            <!---divisi gambar satu--->
+            <div class="card">
+              <img class="card-img-top" src="./images/FH4.png" alt="project 1" />
+            </div>
+            <!---untuk divisi text--->
+            <div class="card-body">
+              <p class="card-text text-dark">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto harum modi officia ab recusandae ipsa nulla in tenetur possimus fugiat? Voluptatibus fugit odio iure ipsum modi perspiciatis veritatis magni nemo.
+              </p>
+            </div>
+          </div>
+
+          <!---project 2--->
+          <div class="col-md-4 mb-4">
+            <!---divisi gambar satu--->
+            <div class="card">
+              <img class="card-img-top" src="./images/FH4.png" alt="project 2" />
+            </div>
+            <!---untuk divisi text--->
+            <div class="card-body">
+              <p class="card-text text-dark">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto harum modi officia ab recusandae ipsa nulla in tenetur possimus fugiat? Voluptatibus fugit odio iure ipsum modi perspiciatis veritatis magni nemo.
+              </p>
+            </div>
+          </div>
+
+          <!---project 3--->
+          <div class="col-md-4 mb-4">
+            <!---divisi gambar satu--->
+            <div class="card">
+              <img class="card-img-top" src="./images/FH4.png" alt="project 3" />
+            </div>
+            <!---untuk divisi text--->
+            <div class="card-body">
+              <p class="card-text text-dark">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto harum modi officia ab recusandae ipsa nulla in tenetur possimus fugiat? Voluptatibus fugit odio iure ipsum modi perspiciatis veritatis magni nemo.
+              </p>
+            </div>
+          </div>
+
+          <!---project 4--->
+          <div class="col-md-4 mb-4">
+            <!---divisi gambar satu--->
+            <div class="card">
+              <img class="card-img-top" src="./images/FH4.png" alt="project 4" />
+            </div>
+            <!---untuk divisi text--->
+            <div class="card-body">
+              <p class="card-text text-dark">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto harum modi officia ab recusandae ipsa nulla in tenetur possimus fugiat? Voluptatibus fugit odio iure ipsum modi perspiciatis veritatis magni nemo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>

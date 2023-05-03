@@ -1,0 +1,13 @@
+.jumbotron {
+    padding-top: 6rem;
+    margin-top: 2rem;
+  }
+  
+  section {
+    margin-top: -5rem;
+    padding-top: 5rem;
+  }
+
+  .bg-greenlight {
+    background: #00d4ff;
+  }
