@@ -28,12 +28,12 @@
             <div class="container">
                 <a class="navbar-brand" href="#">Portfolio Andrew</a>
                 <!---toggle burger--->
-                <button class="navbar-toggler" type="button">
+                <button class="navbar-toggler" type="button" data-bs-target="#navbarnav" data-bs-toggle="collapse" aria-controls="navbarnav" aria-expanded="false" aria-label="toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <!---navigation--->
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="navbarnav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
                         <li class="nav-item"><a class="nav-link " href="#about">About</a></li>
@@ -175,9 +175,9 @@
         <div class="row justify-content-center">
           <!---bagian pesan sudah terkirim--->
           <div class="col-md-6">
-            <div class="alert alert-success alert-dismiss">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
               <strong>Terima kasih !</strong> pesan anda sudah kami terima ! 
-              <button type="button" class="btn-close"></button>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
             </div>
            </div>
            <!---form yang diisi pengguna-->
@@ -198,7 +198,7 @@
               Kirim
             </button>
             <!-- loading text shows up -->
-            <button class="btn btn-primary btn-loading" type="button">
+            <button class="btn btn-primary btn-loading d-none" type="button">
               <span class="spinner-border spinner-border-sm"></span> Loading...
             </button>
            </form>
@@ -227,5 +227,12 @@
         </a>
       </p>
     </footer>
+    <!---akhir dari footer--->
+
+    <!---bootstrap javascript--->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!---eksternal javascript--->
+    <script src="script.js"></script>
   </body>
 </html>
