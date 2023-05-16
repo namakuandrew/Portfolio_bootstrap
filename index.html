@@ -181,20 +181,23 @@
             </div>
            </div>
            <!---form yang diisi pengguna-->
-           <form class="fw-bolder">
+           <form class="fw-bolder" name="Andrew-contact-me">
             <div class="mb-3">
-              <label class="form-label">Nama Lengkap</label>
-              <input type="text" class="form-control" placeholder="Nama lengkap anda">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" placeholder="Nama lengkap anda" name="name" id="name">
             </div>
+
             <div class="mb-3">
-              <label class="form-label">Email Anda</label>
-              <input type="text" class="form-control" placeholder="Example@gmail.com">
+              <label for="email" class="form-label">Email Anda</label>
+              <input type="text" class="form-control" placeholder="Example@gmail.com" name="email" id="email">
             </div>
+
             <div class="mb-3">
-              <label class="form-label">Pesan Anda</label>
+              <label for="message" class="form-label">Pesan Anda</label>
               <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Pesan yang ingin anda sampaikan"></textarea>
             </div>
-            <button type="submit" class="btn btnsa-primary btn-dark">
+
+            <button type="submit" class="btn btnsa-primary btn-dark btn-kirim">
               Kirim
             </button>
             <!-- loading text shows up -->
